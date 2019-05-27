@@ -1,0 +1,61 @@
+
+https://www.youtube.com/watch?v=Q2sXw_RCbis&list=PLB4AdipoHpxYmPdyI3e-yH58-3CS4qoAf&index=7
+06 
+http://webartis-an.blogspot.com/2017/12/ajax-crud-tutorial-in-laravel-example.html
+
+-- migrate the tables
+php artisan migrate
+
+-- install laravel default authentication
+php artisan make:auth
+
+**install admin lte panel via: https://adminlte.io/ -> DOCS in navbar
+-> this will install adminLTE as a dependency
+npm install admin-lte --save
+
+-- install other dependency like axios/jquery etc
+npm install
+-- compile all dependecy in one file
+npm run dev
+
+-- auto compile the saas / dependencies when change is made
+npm run watch
+
+-- install font-awesome
+npm install font-awesome --save-dev
+
+-create resourceful controller
+php artisan make:controller CategoryController -r
+
+-create database seeder
+php artisan make:seeder UsersTableSeeder
+
+-create model with migration
+php artisan make:model Region -m
+
+-create region resourceful controller
+php artisan make:controller RegionsController -r
+
+- create city
+php artisan make:model City -m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

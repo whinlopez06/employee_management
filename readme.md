@@ -1,3 +1,28 @@
+
+make sure you have installed composer.
+
+Note: rename the .env.example to .env
+
+Create database in your local and name it: adminltecrud
+
+Execute the commands
+
+composer dump-autoload
+php artisan cache:clear
+php artisan migrate
+php artisan db:seed
+php artisan config:clear
+
+
+login credential
+email: admin@gmail.com
+password: admin
+
+Project Description: Simple Employee Management with user and system maintenance(region, cities, department etc)
+Project Status: Ongoing.
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
